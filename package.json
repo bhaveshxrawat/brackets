@@ -1,0 +1,19 @@
+{
+  "name": "brackets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "serve-json": "npx serve db.json -p 9000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "brackets-json-db": "^1.0.2",
+    "brackets-manager": "^1.6.4",
+    "json-server": "^1.0.0-beta.3"
+  }
+}
